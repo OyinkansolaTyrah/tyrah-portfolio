@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0A192F;
+  --foreground: #CCD6F6;
+  --text: #8791AF;
+  --shadow: #233554;
+
+  --accent: #64FFDA;
+  --accent-hover: #133040;
+
+  --card: #0a192f;
+  --card-hover: #233554;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+};
+h1{
+  font-size: 56px;
+  line-height: 1.1em;
+}
+h2{
+  font-size: 48px;
+}
+h3{
+  font-size: 36px;
+}
+p{
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+header,
+.header {
+  border-bottom: 1px solid var(--shadow);
+  color: var(--foreground);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: .6rem 10%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn:hover{
+  color: var(--accent);
+}
+
+.header-right {
+  display: flex;
+  gap: 1.5rem;
+}
+

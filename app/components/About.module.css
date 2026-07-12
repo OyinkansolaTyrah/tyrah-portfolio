@@ -1,0 +1,89 @@
+.aboutSection {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+
+  padding: 80px 10%;
+}
+.textHighlight{
+    color: var(--accent);
+}
+.aboutContent {
+  flex: 1;
+}
+
+.aboutImage {
+  flex: 0 0 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.profileImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+
+  border-radius: 16px;
+  align-items: center;
+}
+
+.aboutTitle {
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.aboutDescription {
+  line-height: 2em;
+  word-spacing: 10px;
+  max-width: 650px;
+}
+
+.techTitle {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  word-spacing: 10px;
+}
+
+.techList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: disc;
+  padding-left: 2rem;
+  gap: .75rem 1rem;
+  margin-top: 2rem;
+}
+.techList li::marker {
+  color: var(--accent);
+}
+
+
+@media (max-width: 768px) {
+
+  .aboutSection {
+    flex-direction: column;
+  }
+  .aboutTitle{
+    font-size: 3rem;
+  }
+  .aboutContent {
+    order: 1;
+  }
+
+  .aboutImage {
+    order: 2;
+  }
+
+  .profileImage {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .techList {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+  }
+}

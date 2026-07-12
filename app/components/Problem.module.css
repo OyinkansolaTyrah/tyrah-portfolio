@@ -1,0 +1,56 @@
+.problemSection {
+  min-height: 100vh;
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.problemTitle {
+  margin-bottom: 1.5rem;
+  color: var(--foreground);
+}
+
+.problemDescription {
+  max-width: 100%;
+  align-items: start;
+  line-height: 2em;
+  word-spacing: 10px;
+}
+
+.problemGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.problemCard {
+  padding: 1rem;
+  border: 1px solid var(--shadow);
+  color: var(--foreground);
+  border-radius: 12px;
+  text-align: center;
+}
+.problemCard:hover{
+    border: none;
+    color: var(--accent);
+}
+
+
+@media (max-width: 768px) {
+  .problemGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }  
+  .problemDescription {
+    width: 100%;
+  }
+  .problemTitle {
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}

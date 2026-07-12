@@ -1,0 +1,139 @@
+.projectsSection {
+  padding: 80px 10%;
+}
+
+.sectionTitle{
+    color: var(--foreground);
+}
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.projectCard {
+  position: relative;
+  overflow: hidden;
+  color: var(--foreground);
+  background-color: var(--card);
+  border-radius: 16px;
+  padding: 32px;
+}
+.projectCard:hover {
+  transform: translateY(-3px);
+  background-color: var(--card-hover);
+}
+
+.projectImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+.projectInfo h3{
+    color: var(--foreground);
+}
+.projectInfo p{
+    color: var(--text);
+}
+
+
+.projectButtons {
+  margin-top: .5rem;
+
+  display: flex;
+  gap: 1rem;
+}
+.projectCard title{
+    color: var(--foreground);
+}
+.projectButtons a{
+    color: var(--text);
+}
+.projectList{
+    list-style: disc;
+    padding-left: 2rem;
+    color: var(--text);
+}
+.projectList li::marker {
+  color: var(--accent);
+}
+.projectButtons a{
+    border: 1px solid var(--accent);
+    color: var(--foreground);
+    border-radius: 7px;
+    padding: .7rem 1rem;
+}
+.projectButtons a:hover{
+    background-color: var(--accent-hover);
+    transform: translateY(-3px);
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .projectCard {
+    max-width: 100%;
+  }
+
+  .projectImage {
+    height: 250px;
+  }
+
+  .projectButtons {
+    flex-direction: column;
+  }
+
+  .projectButtons a {
+    width: 100%;
+    text-align: center;
+  }
+  .projectOverlay {
+    opacity: 1;
+    position: static;
+    background: transparent;
+    padding: 1rem 0;
+  }
+
+  .projectCard:hover .projectOverlay {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .projectOverlay h3 {
+    font-size: 1.25rem;
+  }
+
+  .projectOverlay p {
+    font-size: 0.95rem;
+  }
+
+  .projectImage {
+    height: 220px;
+  }
+}

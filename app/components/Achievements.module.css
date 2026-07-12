@@ -1,0 +1,39 @@
+.achievementsSection {
+    padding: 80px 10%;
+}
+
+.achievementsTitle {
+    color: var(--foreground);
+    margin-bottom: 2rem;
+}
+.achievementsSubTitle{
+    color: var(--text);
+}
+.achievementsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.achievementCard {
+  position: relative;
+  overflow: hidden;
+  color: var(--text);
+  background-color: var(--card);
+  border-radius: 16px;
+  padding: 32px;
+}
+.achievementCard:hover {
+    transform: translateY(-3px);
+    background-color: var(--card-hover);
+}
+.achievementsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.achievementsInfo h3{
+    color: var(--foreground);
+}
