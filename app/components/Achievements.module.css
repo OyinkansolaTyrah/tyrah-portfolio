@@ -19,7 +19,7 @@
   position: relative;
   overflow: hidden;
   color: var(--text);
-  background-color: var(--card);
+  border: 1px solid var(--accent-hover);
   border-radius: 16px;
   padding: 32px;
 }
@@ -36,4 +36,28 @@
 }
 .achievementsInfo h3{
     color: var(--foreground);
+}
+
+
+
+
+@media (max-width: 768px) {
+  .achievementsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievementCard {
+    max-width: 100%;
+  }
+  .achievementCard:hover
+   {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievementsTitle {
+    font-size: 2rem;
+  }
+
 }

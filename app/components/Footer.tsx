@@ -1,71 +1,71 @@
-import React from 'react'
+import styles from "./Footer.module.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <header className='header'>
-      <div className="header-container">
+    <footer className={styles.footer}>
+      <div className={styles.footerContainer}>
         
-        <div className="header-left">
-          <a href="#" className="logo">
+        <div className={styles.footerLeft}>
+          <a href="#" className={styles.logo}>
             Tyrah
           </a>
           <p>
             Frontend developer passionate about creating innovative solutions and delivering exceptional user experiences.
           </p>
         </div>
-        <div className="header-center">
+        <div className={styles.footerCenter}>
             <h4>
                 Quick Links
             </h4>
 
           <nav>
-            <ul className="nav-links">
+            <ul className={styles.navLinks}>
               <li>
-                <a href="#services" className='btn'><b>Services</b></a>
+                <a href="#services" className={styles.btn}><b>Services</b></a>
               </li>
 
               <li>
-                <a href="#projects" className='btn'><b>Projects</b></a>
+                <a href="#projects" className={styles.btn}><b>Projects</b></a>
               </li>
 
               <li>
-                <a href="#about" className='btn'><b>About</b></a>
+                <a href="#about" className={styles.btn}><b>About</b></a>
               </li>
 
               <li>
-                <a href="#contact" className='btn'><b>Contact</b></a>
+                <a href="#contact" className={styles.btn}><b>Contact</b></a>
               </li>
             </ul>
 
           </nav>
         </div>
 
-        <div className="header-right">
+        <div className={styles.footerRight}>
             <h4>
                 Let's Connect
             </h4>
-          <a href="mailto:musiliuoyinkansolatyrah@email.com" className='btn'>
-            Mail
-          </a>
+            <div className={styles.footerA}>
+              <a href="mailto:musiliuoyinkansolatyrah@email.com" className={styles.btn}>
+                Email Me
+              </a>
 
-          <a
-            href="https://www.linkedin.com/in/rukayatmusiliu"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='btn'
-          >
-            LinkedIn
-          </a>
+              <a
+                href="https://www.linkedin.com/in/rukayatmusiliu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.btn}
+              >
+                LinkedIn
+              </a>
+            </div>
         </div>
 
       </div>
 
       <hr />
-      <div className="header-bottom">
+      <div className={styles.footerBottom}>
         <p> &copy; {new Date().getFullYear()} Tyrah. All Rights Reserved</p>
       </div>
-    </header>
+    </footer>
   );
 }
-
-export default Footer

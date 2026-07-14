@@ -7,6 +7,7 @@
   gap: 5rem;
 
   padding: 80px 10%;
+  background-color: var(--card);
 }
 .textHighlight{
     color: var(--accent);

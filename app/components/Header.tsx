@@ -1,6 +1,11 @@
+"use client";
+
 import React from 'react'
+import { useState } from "react";
+import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className='header'>
       <div className="header-container">
@@ -10,7 +15,8 @@ const Header = () => {
             Tyrah
           </a>
 
-          <nav>
+
+          <nav className={`nav ${menuOpen ? "navOpen" : ""}`}>
             <ul className="nav-links">
               <li>
                 <a href="#services" className='btn'><b>Services</b></a>
@@ -46,6 +52,14 @@ const Header = () => {
             LinkedIn
           </a>
         </div>
+
+        <button
+              className="menuButton"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle navigation"
+          >
+              {menuOpen ? <HiOutlineX /> : <HiOutlineMenu />}
+        </button>
 
       </div>
     </header>
