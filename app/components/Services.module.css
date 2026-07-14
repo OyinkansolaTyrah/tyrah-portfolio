@@ -25,24 +25,51 @@
   background: transparent;
   text-align: left;
   cursor: pointer;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  position: relative;
+  transition: .3s;
 }
 .servicesMenu button:hover{
     background-color: var(--accent-hover);
+    padding-left: 2rem;
 }
 
 .serviceContent {
   padding-left: 2rem;
+  animation:fadeIn .35s ease;
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
 }
 
 .active {
   color: var(--accent);
   border-right: 1px solid var(--accent);
+  font-weight: 600;
 }
 .serviceContent h3 {
   margin-bottom: 1rem;
   color: var(--accent);
   font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .serviceContent p {

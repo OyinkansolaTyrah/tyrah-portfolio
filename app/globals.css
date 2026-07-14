@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0D1117;
-  --foreground: #E6EDF3;
-  --text: #A8B3CF;
-  --shadow: #21262D;
+:root { 
+  --background: #0A192F; 
+  --foreground: #CCD6F6; 
+  --text: #8791AF; 
+  --shadow: #233554; 
 
-  --accent: #58A6FF;
-  --accent-hover: #1F6FEB;
-
-  --card: #161B22;
-  --card-hover: #21262D;
+  --accent: #64FFDA; 
+  --accent-hover: #133040; 
+  
+  --card: #112240; 
+  --card-hover: #233554; 
 }
 
 body {

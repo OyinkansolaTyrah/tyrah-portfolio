@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   justify-content: center;
   align-items: center;
 }
@@ -35,10 +35,13 @@
   color: var(--foreground);
   border-radius: 12px;
   text-align: center;
+  transition: .35s;
 }
 .problemCard:hover{
     border: none;
-    color: var(--accent);
+    background: var(--accent);
+    color: var(--foreground);
+    transform: translateY(-6px);
 }
 
 

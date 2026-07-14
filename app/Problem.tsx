@@ -1,11 +1,17 @@
 import styles from "./components/Problem.module.css";
+import {
+FiSearch,
+FiSmartphone,
+FiZap,
+FiMousePointer
+} from "react-icons/fi";
 
 export default function Problem () {
     return (
         <section className={styles.problemSection}>
 
             <h2 className={styles.problemTitle}>
-                /why most websites fail
+                /what's holding most websites back
             </h2>
 
             <p className={styles.problemDescription}>
