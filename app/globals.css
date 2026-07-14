@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0A192F;
-  --foreground: #CCD6F6;
-  --text: #8791AF;
-  --shadow: #233554;
+  --background: #0D1117;
+  --foreground: #E6EDF3;
+  --text: #A8B3CF;
+  --shadow: #21262D;
 
-  --accent: #64FFDA;
-  --accent-hover: #133040;
+  --accent: #58A6FF;
+  --accent-hover: #1F6FEB;
 
-  --card: #112240;
-  --card-hover: #233554;
+  --card: #161B22;
+  --card-hover: #21262D;
 }
 
 body {
@@ -28,18 +28,18 @@ h6 {
   font-family: var(--font-heading);
 };
 h1{
-  font-size: 56px;
-  line-height: 1.1em;
+  font-size: clamp(3.5rem,6vw,5rem);
+  line-height: 1.;
 }
 h2{
-  font-size: 48px;
+  font-size: clamp(2.2rem,4vw,3rem);
 }
 h3{
-  font-size: 36px;
+  font-size: clamp(1.6rem,3vw,2rem);
 }
 p{
-  font-size: 16px;
-  line-height: 1.6em;
+  font-size: 1rem;
+  line-height: 1.8em;
 }
 
 .header {

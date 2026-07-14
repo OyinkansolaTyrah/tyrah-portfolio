@@ -1,5 +1,7 @@
 .projectsSection {
-  padding: 80px 10%;
+  max-width:1200px;
+  margin:auto;
+  padding: 110px 8%;
 }
 
 .sectionTitle{

@@ -1,5 +1,7 @@
 .achievementsSection {
-    padding: 80px 10%;
+  max-width:1200px;
+  margin:auto;
+  padding: 110px 8%;
 }
 
 .achievementsTitle {
@@ -19,13 +21,15 @@
   position: relative;
   overflow: hidden;
   color: var(--text);
-  border: 1px solid var(--accent-hover);
+  background: var(--card);
   border-radius: 16px;
   padding: 32px;
+  transition: .3s;
 }
 .achievementCard:hover {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
     background-color: var(--card-hover);
+  border: 1px solid var(--accent);
 }
 .achievementsInfo {
     display: flex;

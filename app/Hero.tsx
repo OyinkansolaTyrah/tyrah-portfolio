@@ -1,13 +1,40 @@
 import styles from "./components/Hero.module.css";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaJsSquare
+} from "react-icons/fa";
+
+import {
+  SiNextdotjs,
+  SiTypescript
+} from "react-icons/si";
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
 
       <div className={styles.heroImage}>
-        <div className={styles.portraitPlaceholder}>
-          Pixel Portrait
-        </div>
+
+        <img
+            src="/images/tyrah.jpg"
+            alt="Tyrah"
+            className={styles.profile}
+        />
+
+        <span className={`${styles.tech} ${styles.html}`}><FaHtml5 /></span>
+
+        <span className={`${styles.tech} ${styles.css}`}><FaCss3Alt /></span>
+
+        <span className={`${styles.tech} ${styles.js}`}><FaJsSquare /></span>
+
+        <span className={`${styles.tech} ${styles.react}`}><FaReact /></span>
+
+        <span className={`${styles.tech} ${styles.next}`}><SiNextdotjs /></span>
+
+        <span className={`${styles.tech} ${styles.ts}`}><SiTypescript /></span>
+
       </div>
 
       <div className={styles.heroContent}>
