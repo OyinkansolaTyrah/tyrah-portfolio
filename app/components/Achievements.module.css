@@ -41,6 +41,14 @@
 .achievementsInfo h3{
     color: var(--foreground);
 }
+.achievementsInfo h3,
+.achievementsInfo p{
+  text-align: center;
+}
+.achievementsInfo svg {
+    font-size: 3rem;
+    color: var(--accent);
+}
 
 
 
