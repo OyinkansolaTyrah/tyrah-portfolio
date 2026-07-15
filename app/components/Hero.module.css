@@ -28,7 +28,7 @@
   height:260px;
   border-radius:50%;
   object-fit:cover;
-  border:3px solid var(--accent);
+  border:2px solid var(--accent);
   z-index:2;
 }
 

@@ -80,9 +80,9 @@ export default function Projects() {
                     ))}
               </ul>
               <div className={styles.projectButtons}>
-                <a href={project.liveLink}>
+                {/* <a href={project.liveLink}>
                   Live Site
-                </a>
+                </a> */}
 
                 <a href={project.caseStudy}>
                   Case Study

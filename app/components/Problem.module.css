@@ -40,7 +40,7 @@
 .problemCard:hover{
     border: none;
     background: var(--accent);
-    color: var(--foreground);
+    color: var(--background);
     transform: translateY(-6px);
 }
 

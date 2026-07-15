@@ -18,7 +18,7 @@ export default function Hero() {
       <div className={styles.heroImage}>
 
         <img
-            src="/images/tyrah.jpg"
+            src="/images/tyrahHero.jpg"
             alt="Tyrah"
             className={styles.profile}
         />
