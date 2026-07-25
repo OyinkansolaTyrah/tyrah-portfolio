@@ -19,16 +19,14 @@
 
 .aboutImage {
   flex: 0 0 35%;
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
   position: relative;
 }
 .aboutImage::before{
   content: "";
   position: absolute;
-  inset: -12px;
   border: 2px solid var(--accent);
   border-radius: 18px;
   z-index: -1;
@@ -36,11 +34,12 @@
 
 .profileImage {
   width: 100%;
-  max-width: 200px;
+  max-width: 320px;
   height: auto;
 
   border-radius: 16px;
   align-items: center;
+  transform: scaleX(-1);
 }
 
 .aboutTitle {
