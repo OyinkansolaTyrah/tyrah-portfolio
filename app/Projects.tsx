@@ -3,44 +3,44 @@ import styles from "./components/Projects.module.css";
 const projects = [
   {
     title: "Mental Wellness Platform",
-    image: "/images/project1.png",
+    image: "/images/calmmindd.png",
     description:
       "A calming platform focused on mental wellness and emotional wellbeing.",
 
     details:
       "Designed and developed a modern user experience with accessibility, responsive design, and conversion-focused layouts.",
 
-    tech: ["Framer", "Notion", "CSS Modules"],
+    tech: ["Framer", "Notion"],
 
-    liveLink: "#",
+    liveLink: "https://calmmindd.framer.website/",
     caseStudy: "#",
   },
 
   {
     title: "Business Landing Page",
-    image: "/images/project-2.jpg",
+    image: "/images/ziiiistudio.png",
     description:
       "A landing page built to convert visitors into leads.",
 
     details:
       "Focused on user flow, performance optimization, and strategic call-to-action placement.",
 
-    tech: ["Next.js", "JavaScript", "Figma"],
+    tech: ["Framer", "Notion"],
 
-    liveLink: "#",
+    liveLink: "https://ziiiistudio.framer.website/",
     caseStudy: "#",
   },
 
   {
     title: "E-Commerce Website",
-    image: "/images/project-3.jpg",
+    image: "/images/tyrahdesign.png",
     description:
       "A modern online store built for sales and growth.",
 
     details:
       "Created a responsive shopping experience optimized for usability and conversions.",
 
-    tech: ["Shopify", "CSS", "JavaScript"],
+    tech: ["Typescript", "CSS MOdules", "Notion"],
 
     liveLink: "#",
     caseStudy: "#",
