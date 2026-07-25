@@ -80,7 +80,9 @@ export default function Projects() {
                     ))}
               </ul>
               <div className={styles.projectButtons}>
-                <a href={project.liveLink}>
+                <a href={project.liveLink}
+                target="_blank"
+                rel="noopener noreferrer">
                   Live Site
                 </a>
 
