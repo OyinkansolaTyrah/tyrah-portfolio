@@ -13,8 +13,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Tyrah | Frontend Developer",
-  description: "Frontend Developer and UI/UX Designer building responsive websites.",
+  title: "Tyrah Designs | Frontend Developer",
+  description: "Tyrah Designs creates modern, responsive websites through frontend development and UI/UX design.",
     icons: {
     icon: "/icon.png",
   },
