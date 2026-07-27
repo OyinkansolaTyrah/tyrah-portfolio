@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   verification: {
     google: "jLw-kfbt4veiSGxVgl__K_hrdCHbdnTEDFGNBItJ-FI",
   },
+  alternates: {
+    canonical: "https://tyrahdesign.vercel.app",
+  },
 };
 
 export default function RootLayout({
