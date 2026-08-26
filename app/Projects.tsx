@@ -15,6 +15,37 @@ const projects = [
     liveLink: "https://calmmindd.framer.website/",
     caseStudy: "#",
   },
+
+  
+  {
+    title: "Productivity Manager",
+    image: "/images/taskflow.png",
+    description:
+      "A personal productivity dashboard designed to help users organize and manage their daily tasks.",
+
+    details:
+      "Built an interactive task management experience with task creation, completion tracking, task deletion, customization options, and local data persistence.",
+
+    tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
+
+    liveLink: "https://taskflowdaily.vercel.app/",
+    caseStudy: "#",
+  },
+  
+  {
+    title: "Business Landing Page",
+    image: "/images/ziiiistudio.png",
+    description:
+      "A landing page built to convert visitors into leads.",
+
+    details:
+      "Focused on user flow, performance optimization, and strategic call-to-action placement.",
+
+    tech: ["Framer", "Notion"],
+
+    liveLink: "https://ziiiistudio.framer.website/",
+    caseStudy: "#",
+  },
   
   {
     title: "Personal Portfolio",
@@ -31,35 +62,6 @@ const projects = [
     caseStudy: "#",
   },
 
-  {
-    title: "Business Landing Page",
-    image: "/images/ziiiistudio.png",
-    description:
-      "A landing page built to convert visitors into leads.",
-
-    details:
-      "Focused on user flow, performance optimization, and strategic call-to-action placement.",
-
-    tech: ["Framer", "Notion"],
-
-    liveLink: "https://ziiiistudio.framer.website/",
-    caseStudy: "#",
-  },
-
-  {
-    title: "Productivity Manager",
-    image: "/images/taskflow.png",
-    description:
-      "A personal productivity dashboard designed to help users organize and manage their daily tasks.",
-
-    details:
-      "Built an interactive task management experience with task creation, completion tracking, task deletion, customization options, and local data persistence.",
-
-    tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
-
-    liveLink: "https://taskflowdaily.vercel.app/",
-    caseStudy: "#",
-  },
 ];
 
 export default function Projects() {
