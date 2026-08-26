@@ -32,23 +32,23 @@ const projects = [
   },
 
   {
-    title: "E-Commerce Website",
+    title: "Personal Portfolio",
     image: "/images/tyrahdesign.png",
     description:
-      "A modern online store built for sales and growth.",
+      "A personal portfolio website designed to showcase my work, skills, and experience as a web designer and developer.",
 
     details:
-      "Created a responsive shopping experience optimized for usability and conversions.",
+      "Designed and developed a responsive portfolio experience with a clean visual system, project showcase, responsive layouts, and clear calls to action for potential clients and employers.",
 
-    tech: ["Typescript", "CSS MOdules", "Notion"],
+    tech: ["Next.js", "TypeScript", "CSS Modules"],
 
-    liveLink: "https://taskflowdaily.vercel.app/",
+    liveLink: "#",
     caseStudy: "#",
   },
 
   {
     title: "Productivity Manager",
-    image: "/images/tyrahdesign.png",
+    image: "/images/taskflow.png",
     description:
       "A personal productivity dashboard designed to help users organize and manage their daily tasks.",
 
@@ -57,7 +57,7 @@ const projects = [
 
     tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
 
-    liveLink: "#",
+    liveLink: "https://taskflowdaily.vercel.app/",
     caseStudy: "#",
   },
 ];
