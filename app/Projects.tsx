@@ -42,6 +42,21 @@ const projects = [
 
     tech: ["Typescript", "CSS MOdules", "Notion"],
 
+    liveLink: "https://taskflowdaily.vercel.app/",
+    caseStudy: "#",
+  },
+
+  {
+    title: "Productivity Manager",
+    image: "/images/tyrahdesign.png",
+    description:
+      "A personal productivity dashboard designed to help users organize and manage their daily tasks.",
+
+    details:
+      "Built an interactive task management experience with task creation, completion tracking, task deletion, customization options, and local data persistence.",
+
+    tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
+
     liveLink: "#",
     caseStudy: "#",
   },
