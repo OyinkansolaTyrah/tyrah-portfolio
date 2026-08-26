@@ -15,6 +15,21 @@ const projects = [
     liveLink: "https://calmmindd.framer.website/",
     caseStudy: "#",
   },
+  
+  {
+    title: "Personal Portfolio",
+    image: "/images/tyrahdesign.png",
+    description:
+      "A personal portfolio website designed to showcase my work, skills, and experience as a web designer and developer.",
+
+    details:
+      "Designed and developed a responsive portfolio experience with a clean visual system, project showcase, responsive layouts, and clear calls to action for potential clients and employers.",
+
+    tech: ["Next.js", "TypeScript", "CSS Modules"],
+
+    liveLink: "#",
+    caseStudy: "#",
+  },
 
   {
     title: "Business Landing Page",
@@ -28,21 +43,6 @@ const projects = [
     tech: ["Framer", "Notion"],
 
     liveLink: "https://ziiiistudio.framer.website/",
-    caseStudy: "#",
-  },
-
-  {
-    title: "Personal Portfolio",
-    image: "/images/tyrahdesign.png",
-    description:
-      "A personal portfolio website designed to showcase my work, skills, and experience as a web designer and developer.",
-
-    details:
-      "Designed and developed a responsive portfolio experience with a clean visual system, project showcase, responsive layouts, and clear calls to action for potential clients and employers.",
-
-    tech: ["Next.js", "TypeScript", "CSS Modules"],
-
-    liveLink: "#",
     caseStudy: "#",
   },
 
