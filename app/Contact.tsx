@@ -19,7 +19,7 @@ const contacts = [
     icon: <FaGithub />,
     title: "GitHub",
     text: "GitHub",
-    link: "https://github.com/yourusername",
+    link: "https://github.com/OyinkansolaTyrah",
   },
 ];
 
