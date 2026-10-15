@@ -36,12 +36,12 @@ const projects = [
     title: "Business Landing Page",
     image: "/images/ziiiistudio.png",
     description:
-      "A landing page built to convert visitors into leads.",
+      "A focused on user flow, performance optimization, and strategic call-to-action placement.",
 
     details:
-      "Focused on user flow, performance optimization, and strategic call-to-action placement.",
+      "A high-fidelity minimalist landing page built for modern digital studios. Developed in Framer using modular component layouts and fluid responsive breakpoints to drastically decrease time-to-market while keeping brand presentation razor-sharp.",
 
-    tech: ["Framer", "Notion"],
+    tech: ["Framer", "UI/UX Design", "Typography & Layout"],
 
     liveLink: "https://ziiiistudio.framer.website/",
     caseStudy: "#",
@@ -54,9 +54,9 @@ const projects = [
       "A personal portfolio website designed to showcase my work, skills, and experience as a web designer and developer.",
 
     details:
-      "Designed and developed a responsive portfolio experience with a clean visual system, project showcase, responsive layouts, and clear calls to action for potential clients and employers.",
+      "A custom developer portfolio engineered with Next.js and TypeScript for pristine type safety and server-side optimization. Styled cleanly with CSS Modules to showcase how structural simplicity can deliver blazing-fast page transitions and strong SEO foundations.",
 
-    tech: ["Next.js", "TypeScript", "CSS Modules"],
+    tech: ["Next.js", "TypeScript", "CSS Modules", "SEO Optimization"],
 
     liveLink: "#",
     caseStudy: "#",
