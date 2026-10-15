@@ -48,10 +48,8 @@ export default function Hero() {
         </h1>
 
         <p className={styles.heroDescription}>
-          I am a Frontend Developer & UI/UX Designer 
-          bridging the gap between clean aesthetics and production ready code. 
-          I specialize in building zero-friction, ultra-fast 
-          web experiences that keeps users from dropping off.
+          I design and build modern websites that combine thoughtful design, smooth user experiences, 
+          and reliable performance, helping businesses present themselves better online.
         </p>
 
         <div className={styles.heroButtons}>

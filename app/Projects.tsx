@@ -5,7 +5,7 @@ const projects = [
     title: "Mental Wellness Platform",
     image: "/images/calmmindd.png",
     description:
-      "Designed a high=conversion, low stress user flow. Focused heavily on color psychology and visual hierachy to ensure zero cognitive friction for users in distress.",
+      "Designed a high-conversion, low stress user flow. Focused heavily on color psychology and visual hierarchy to ensure zero cognitive friction for users in distress.",
 
     details:
       "A thoughtfully designed digital space focused on emotional wellbeign. Built using a mobile-first UI approach with smooth layouts to ensure zero cognitive friction for users seeking a moment of peace.",
@@ -36,7 +36,7 @@ const projects = [
     title: "Business Landing Page",
     image: "/images/ziiiistudio.png",
     description:
-      "A focused on user flow, performance optimization, and strategic call-to-action placement.",
+      "A website focused on user flow, performance optimization, and strategic call-to-action placement.",
 
     details:
       "A high-fidelity minimalist landing page built for modern digital studios. Developed in Framer using modular component layouts and fluid responsive breakpoints to drastically decrease time-to-market while keeping brand presentation razor-sharp.",

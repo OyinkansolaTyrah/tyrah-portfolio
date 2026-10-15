@@ -15,7 +15,7 @@ export default function Problem () {
             </h2>
 
             <p className={styles.problemDescription}>
-                I see it everyday. Gorgeous websites that make 
+                I see it every day. Gorgeous websites that make 
                 0. The problem is rarely the business itself. It 
                 is usually the website experience.
                 Slow loading times, poor mobile responsiveness, weak SEO,
