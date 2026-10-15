@@ -12,11 +12,12 @@ export default function About() {
         </h2>
 
         <p className={styles.aboutDescription}>
-          I'm Tyrah, a <span className={styles.textHighlight}>Front-End Developer</span> and 
-          <span className={styles.textHighlight}> UI/UX Designer. </span>
-          My goal is to help businesses establish
-          a strong online presence through thoughtful design,
-          clean code, and conversion-focused user experiences.
+          I'm Tyrah, a <span className={styles.textHighlight}>Developer</span> who
+          refuses to separate how a website looks from how it performs. 
+          I don't just write code to match a design file, I audit user flows, eliminate 
+          loading bottlenecks, and ensure your web presence directly serves your business 
+          goals. Whether collaborating on an active Next.js application or rapidly deploying 
+          a marketing engine on Framer, I deliver functional engineering you can <span className={styles.textHighlight}>trust.</span>
         </p>
 
         <p className={styles.techTitle}>

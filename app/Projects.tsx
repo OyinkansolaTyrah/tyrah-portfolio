@@ -5,12 +5,12 @@ const projects = [
     title: "Mental Wellness Platform",
     image: "/images/calmmindd.png",
     description:
-      "A calming platform focused on mental wellness and emotional wellbeing.",
+      "Designed a high=conversion, low stress user flow. Focused heavily on color psychology and visual hierachy to ensure zero cognitive friction for users in distress.",
 
     details:
-      "Designed and developed a modern user experience with accessibility, responsive design, and conversion-focused layouts.",
+      "A thoughtfully designed digital space focused on emotional wellbeign. Built using a mobile-first UI approach with smooth layouts to ensure zero cognitive friction for users seeking a moment of peace.",
 
-    tech: ["Framer", "Notion"],
+    tech: ["Framer", "UI/UX Design", "Asset Optimization"],
 
     liveLink: "https://calmmindd.framer.website/",
     caseStudy: "#",
@@ -21,12 +21,12 @@ const projects = [
     title: "Productivity Manager",
     image: "/images/taskflow.png",
     description:
-      "A personal productivity dashboard designed to help users organize and manage their daily tasks.",
+      "Built a lightweight dashboard optimized for instant interactivity using Local Storage, bypassing backend lag so users can manage tasks with zero latency.",
 
     details:
-      "Built an interactive task management experience with task creation, completion tracking, task deletion, customization options, and local data persistence.",
+      "A fast interactive task dashboard engineered with custom JavaScript. By utilizing Local Storage to manage and persist user state locally, it completely bypass backend server delays to deliver a lightning fast, zero-latency user experience.",
 
-    tech: ["HTML", "CSS", "JavaScript", "Local Storage"],
+    tech: ["HTML5", "CSS", "JavaScript", "Local Storage"],
 
     liveLink: "https://taskflowdaily.vercel.app/",
     caseStudy: "#",

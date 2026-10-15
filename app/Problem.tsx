@@ -15,14 +15,14 @@ export default function Problem () {
             </h2>
 
             <p className={styles.problemDescription}>
-                Many businesses invest in websites expecting more leads,
-                sales, and visibility online, yet their websites often fail
-                to deliver meaningful results. The problem is rarely the
-                business itself—it is usually the website experience.
+                I see it everyday. Gorgeous websites that make 
+                0. The problem is rarely the business itself. It 
+                is usually the website experience.
                 Slow loading times, poor mobile responsiveness, weak SEO,
                 confusing navigation, inconsistent branding, and a lack of
                 clear calls to action can drive visitors away before they
-                become customers.
+                become customers. Here is my checklist for 
+                fixing broken user experiences:
             </p>
 
             <div className={styles.problemGrid}>

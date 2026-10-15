@@ -48,13 +48,10 @@ export default function Hero() {
         </h1>
 
         <p className={styles.heroDescription}>
-          I design and develop responsive,
-          user-focused websites that blend
-          aesthetics with functionality.
-          My goal is to create digital
-          experiences that help brands
-          grow and connect with their
-          audience.
+          I am a Frontend Developer & UI/UX Designer 
+          bridging the gap between clean aesthetics and production ready code. 
+          I specialize in building zero-friction, ultra-fast 
+          web experiences that keeps users from dropping off.
         </p>
 
         <div className={styles.heroButtons}>

@@ -35,20 +35,6 @@ export default function Services() {
         ]
     },
 
-    wordpress: {
-        title: "WordPress Development",
-        description:
-        "I create professional WordPress websites that are easy to manage, scalable, and optimized for business growth. From landing pages to complete business websites, I ensure a smooth user experience and strong performance.",
-
-        points: [
-        "Custom WordPress websites",
-        "Theme customization",
-        "Website migration",
-        "SEO-friendly structure",
-        "Ongoing maintenance support"
-        ]
-    },
-
     optimization: {
         title: "Website Optimization & SEO",
         description:
@@ -89,12 +75,6 @@ export default function Services() {
             Frontend Developer
           </button>
 
-          <button
-            onClick={() => setActiveService("wordpress")}
-            className={activeService === "wordpress" ? styles.active : ""}
-          >
-            WordPress Developer
-          </button>
 
           <button
             onClick={() => setActiveService("optimization")}
