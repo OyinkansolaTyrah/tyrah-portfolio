@@ -3,7 +3,7 @@ import styles from "./components/Projects.module.css";
 const projects = [
   {
     title: "Oleku | Furniture & Living",
-    image: "/images/calmmindd.png",
+    image: "/images/oleku.png",
     description:
       "Designed and developed a modern furniture e-commerce experience inspired by timeless craftsmanship, contemporary interiors and editorial design.",
 
@@ -77,7 +77,7 @@ const projects = [
   },
   {
     title: "Tifed Design",
-    image: "/images/calmmindd.png",
+    image: "/images/tifeddesign.png",
     description:
       "Designed and developed a futuristic portfolio showcasing AI-generated animations, cinematic storytelling and experimental visual creations.",
 
