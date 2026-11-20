@@ -16,6 +16,21 @@ const projects = [
     caseStudy: "#",
   },
   {
+    title: "Root & Rind | Spices & Seasonings",
+    image: "/images/root-and-rind.png",
+    description:
+    "Designed and developed a modern e-commerce experience for a spice brand, bringing together quality ingredients, vibrant flavours and a seamless online shopping experience.",
+
+    details: 
+      "A spice and seasoning platform created to make discovering and shopping for a wide variety of spices, herbs, blends and culinary essentils simple and enjoyable. Designed with a focus on clean layouts, intuitive navigation and responsive design, combining rich product presentation with functional e-commerce features to create an engaging shopping experience for food lovers and home cooks.",
+
+      tech:
+        ["Shopify"],
+
+      liveLink: "maaanii.myshopify.com",
+      caseStudy: "#",
+  },
+  {
     title: "Calm Mind",
     image: "/images/calmmindd.png",
     description:
